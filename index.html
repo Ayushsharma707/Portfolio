@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body id="top">
+
+  <header class="header" data-header>
+    <div class="container">
+      <a href="#">
+        <h1 class="logo">Ayush Sharma</h1>
+      </a>
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" class="close-icon"></ion-icon>
+      </button>
+      <nav class="navbar container">
+        <ul class="navbar-list">
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a>
+          </li>
+          <li>
+            <a href="#skills" class="navbar-link" data-nav-link>Skills</a>
+          </li>
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h2 class="hero-title">
+          <span>Hello I'm</span>
+          <strong>Ayush Sharma</strong> Web Developer
+        </h2>
+        <p class="hero-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, aspernatur!
+        </p>
+        <div class="btn-group">
+          <a href="#contact" class="btn btn-primary blue">Contact</a>
+          <a href="#about" class="btn">About Me</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container">
+        <figure class="about-banner">
+          <img src="./assets/images/bg.png" width="800" height="652" loading="lazy" class="img-cover">
+        </figure>
+        <div class="about-content">
+          <p class="section-subtitle">I'm a Developer</p>
+          <h2 class="h2 section-title">I Develop Application that Help People</h2>
+          <p class="section-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet facilis pariatur dolorum facere quaerat
+            neque?
+            fugiat nulla pariatu epteur sint occaecat cupidatat
+          </p>
+          <p class="section-text">
+            Krnon proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde
+            omnis
+          </p>
+          <a href="#portfolio" class="btn btn-primary blue">View Portfolio</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section portfolio" id="portfolio">
+      <div class="container">
+        <p class="section-subtitle">Portfolio</p>
+        <h2 class="h2 section-title">My Works</h2>
+        <br>
+        <br>
+        <ul class="portfolio-list">
+          <li>
+            <a href="/webpage/main page.html" class="portfolio-card1"
+              style="background-image: url('./assets/images/BR.jpeg')">
+              <div class="card-content">
+                <h3 class="h3 card-title">Movie Website</h3>
+                <span class="btn-link">
+                  <span>View Project</span>
+                  <ion-icon name="arrow-forward"></ion-icon>
+                </span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="blog/index.html" class="portfolio-card2" style="background-image: url('./assets/images/5.jpg')">
+              <div class="card-content">
+                <h3 class="h3 card-title">Blog Page</h3>
+                <span class="btn-link">
+                  <span>View Project</span>
+                  <ion-icon name="arrow-forward"></ion-icon>
+                </span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="LP/index.html" class="portfolio-card3" style="background-image: url('./assets/images/DP.jpg')">
+              <div class="card-content">
+                <h3 class="h3 card-title">Landing Page</h3>
+                <span class="btn-link">
+                  <span>View Project</span>
+                  <ion-icon name="arrow-forward"></ion-icon>
+                </span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="MUSIC/index.html" class="portfolio-card4" style="background-image: url('MUSIC/images/earbud.jpg')">
+              <div class="card-content">
+                <h3 class="h3 card-title">Music Player</h3>
+                <span class="btn-link">
+                  <span>View Project</span>
+                  <ion-icon name="arrow-forward"></ion-icon>
+                </span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="container">
+        <p class="section-subtitle">My Skills</p>
+        <h2 class="h2 section-title">I Develop Skills Regularly</h2>
+        <ul class="skills-list">
+          <li class="skills-item">
+            <div class="wrapper" style="width: 95%">
+              <h3 class=" skills-title">HTML</h3>
+              <data class="skills-data" value="90">90%</data>
+            </div>
+            <div class="skills-progress-box">
+              <div class="skills-progress" style="width: 90%"></div>
+            </div>
+          </li>
+          <li class="skills-item">
+            <div class="wrapper" style="width: 80%">
+              <h3 class="skills-title">CSS</h3>
+              <data class="skills-data" value="80">80%</data>
+            </div>
+            <div class="skills-progress-box">
+              <div class="skills-progress" style="width: 80%"></div>
+            </div>
+          </li>
+          <li class="skills-item">
+            <div class="wrapper" style="width: 40%">
+              <h3 class="skills-title">JavaScript</h3>
+              <data class="skills-data" value="40">40%</data>
+            </div>
+            <div class="skills-progress-box">
+              <div class="skills-progress" style="width: 40%"></div>
+            </div>
+          </li>
+          <li class="skills-item">
+            <div class="wrapper" style="width: 60%">
+              <h3 class="skills-title">PYTHON</h3>
+              <data class="skills-data" value="60">60%</data>
+            </div>
+            <div class="skills-progress-box">
+              <div class="skills-progress" style="width: 60%"></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container">
+        <p class="section-subtitle">Contact</p>
+        <h2 class="h2 section-title">You can contact me anytime</h2>
+        <div class="background">
+          <div class="container">
+            <div class="screen">
+              <div class="screen-header">
+                <div class="screen-header-left">
+                  <div class="screen-header-button close"></div>
+                  <div class="screen-header-button maximize"></div>
+                  <div class="screen-header-button minimize"></div>
+                </div>
+                <div class="screen-header-right">
+                  <div class="screen-header-ellipsis"></div>
+                  <div class="screen-header-ellipsis"></div>
+                  <div class="screen-header-ellipsis"></div>
+                </div>
+              </div>
+              <div class="screen-body">
+                <div class="screen-body-item left">
+                  <div class="app-title">
+                    <span>CONTACT</span>
+                    <span>US</span>
+                  </div>
+                  <div class="app-contact">CONTACT INFO : xxx-xxx-xxx</div>
+                </div>
+                <div class="screen-body-item">
+                  <div class="app-form">
+                    <div class="app-form-group">
+                      <input class="app-form-control" placeholder="NAME">
+                    </div>
+                    <div class="app-form-group">
+                      <input class="app-form-control" placeholder="EMAIL">
+                    </div>
+                    <div class="app-form-group">
+                      <input class="app-form-control" placeholder="CONTACT NO">
+                    </div>
+                    <div class="app-form-group message">
+                      <input class="app-form-control" placeholder="MESSAGE">
+                    </div>
+                    <div class="app-form-group buttons">
+                      <button class="app-form-button">CANCEL</button>
+                      <button class="app-form-button">SEND</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="copyright">
+        &copy; 2022 <a href="#" class="copyright-link">AT Soft</a>. All Rights Reserved
+      </p>
+      <ul class="footer-list">
+        <li>
+          <a href="#" class="footer-link">Terms & Condition</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Privacy Policy</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" data-back-to-top><i class="fa-regular fa-circle-up"></i></a>
+
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
